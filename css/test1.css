@@ -92,6 +92,9 @@ a {
       width: auto;
       display: inline; }
 
+.container {
+}
+
 .blog {
   position: relative;
   width: 60%;
@@ -304,7 +307,7 @@ a {
   position: relative;
   bottom: 40px;
   font-size: 0px; }
-  @media all and (max-width: 950px) {
+  @media all and (max-width: 800px) {
     .footer-b {
       bottom: 60px; } }
 
@@ -426,7 +429,7 @@ a {
   height: 50px;
   width: 100%;
   background-color: #0B1251; }
-  @media all and (max-width: 950px) {
+  @media all and (max-width: 800px) {
     .footer-details {
       height: 70px; } }
 
@@ -447,7 +450,7 @@ a {
     color: #FFF;
     font-size: 10px;
     padding: 10px 0 0 0; }
-  @media all and (max-width: 950px) {
+  @media all and (max-width: 800px) {
     .footer-icon {
       width: 100%;
       bottom: 30px;
@@ -471,16 +474,16 @@ a {
   position: absolute;
   bottom: 10px;
   right: 10px; }
-  @media all and (max-width: 600px) {
+  @media all and (max-width: 800px) {
     .footer-nav {
       width: 100%;
       bottom: 5px;
       text-align: center; } }
 
-@media all and (max-width: 950px) {
-  .article-container {
+@media all and (max-width: 800px) {
+  .container {
     width: 100%; }
-  .blog, .side-blog {
+  .blog, .sidebar {
     width: auto;
     margin: 0;
     position: relative; } }
