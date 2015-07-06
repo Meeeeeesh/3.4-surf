@@ -92,6 +92,9 @@ a {
       width: auto;
       display: inline; }
 
+.container {
+}
+
 .blog {
   position: relative;
   width: 60%;
@@ -144,7 +147,7 @@ a {
   font-size: 29px;
   border-left: 2px solid #778fa1;
   padding: 5px;
-  margin: 15px 0 15px 10px;
+  margin: 40px 0 40px 40px;
   color: #0B1251; }
 
 .share-icon {
@@ -216,7 +219,6 @@ a {
   margin-right: auto;
   overflow: hidden;
   background-image: url("../images/tibby-01.png");
-  background-position: 70 center;
   background-size: cover; }
 
 .blogger-img img {
@@ -256,8 +258,7 @@ a {
 
 .ad-txt {
   color: #778fa1;
-  text-align: right;
-  padding: 0 0 20px 0; }
+  text-align: right;}
   .ad-txt > a {
     text-decoration: underline; }
 
@@ -422,7 +423,7 @@ a {
 
 .footer-details {
   position: absolute;
-  bottom: 0;
+  bottom: -7px;
   height: 50px;
   width: 100%;
   background-color: #0B1251; }
@@ -471,16 +472,16 @@ a {
   position: absolute;
   bottom: 10px;
   right: 10px; }
-  @media all and (max-width: 600px) {
+  @media all and (max-width: 950px) {
     .footer-nav {
       width: 100%;
       bottom: 5px;
       text-align: center; } }
 
 @media all and (max-width: 950px) {
-  .article-container {
+  .container {
     width: 100%; }
-  .blog, .side-blog {
+  .blog, .sidebar {
     width: auto;
     margin: 0;
     position: relative; } }
